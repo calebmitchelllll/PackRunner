@@ -66,6 +66,7 @@
       {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         "file": "assets/NewSprite.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -80,6 +81,8 @@
     ],
     "resourceFolders": []
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         "file": "res/player.svg",
@@ -125,6 +128,9 @@
       }
     ]
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -139,6 +145,7 @@
     {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "b": 209,
       "disableInputWhenNotFocused": true,
       "mangledName": "Untitled_32scene",
@@ -151,6 +158,8 @@
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
       "b": 0,
       "disableInputWhenNotFocused": true,
       "mangledName": "Main",
@@ -161,6 +170,9 @@
       "title": "",
       "v": 0,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -176,7 +188,10 @@
         "snap": false,
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         "zoomFactor": 0.4789341884535247,
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -186,6 +201,7 @@
         "selectedLayer": ""
       },
       "objectsGroups": [],
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
       "variables": [],
@@ -212,6 +228,8 @@
           "y": 38,
           "zOrder": 1,
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
       "variables": [
@@ -342,6 +360,9 @@
           "scaleX": 1,
           "scaleY": 1,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -354,6 +375,7 @@
         {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "test_sprite",
@@ -363,12 +385,17 @@
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Conveyor",
           "type": "Sprite",
           "updateIfNotVisible": true,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -379,8 +406,12 @@
             {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "name": "NewSprite",
               "name": "",
+=======
+              "name": "Base",
+>>>>>>> Stashed changes
 =======
               "name": "Base",
 >>>>>>> Stashed changes
@@ -393,6 +424,7 @@
                   "looping": false,
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
@@ -401,6 +433,8 @@
                       "image": "NewSprite",
                       "image": "diamond_effect_fixed.png",
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
                   "timeBetweenFrames": 0.1,
@@ -535,6 +569,9 @@
                       "hasCustomCollisionMask": true,
                       "image": "SnowMan.png",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -555,6 +592,7 @@
                           {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                             "x": 11,
                             "y": 14
                           },
@@ -586,6 +624,8 @@
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
                             "x": 0,
                             "y": 0
                           },
@@ -601,6 +641,9 @@
                             "x": 0,
                             "y": 105
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -615,7 +658,10 @@
           ]
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         },
@@ -709,6 +755,9 @@
             "color": "245;245;245"
           }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -720,6 +769,7 @@
           {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             "objectName": "test_sprite"
           }
         ]
@@ -727,6 +777,8 @@
       "events": [],
             "objectName": "NewSprite"
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
             "objectName": "Conveyor"
@@ -740,6 +792,9 @@
           {
             "objectName": "InfoText"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -748,6 +803,7 @@
       },
       "events": [
         {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
           "type": "BuiltinCommonInstructions::Standard",
@@ -763,6 +819,8 @@
           ],
           "actions": []
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
           "type": "BuiltinCommonInstructions::JsCode",
@@ -944,6 +1002,9 @@
           "useStrict": false,
           "eventsSheetExpanded": false
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -958,8 +1019,13 @@
           "camera3DFieldOfView": 45,
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
           "camera3DNearPlaneDistance": 3,
           "cameraType": "",
+=======
+          "camera3DNearPlaneDistance": 0.1,
+          "cameraType": "perspective",
+>>>>>>> Stashed changes
 =======
           "camera3DNearPlaneDistance": 0.1,
           "cameraType": "perspective",
@@ -981,9 +1047,15 @@
               "height": 0,
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "viewportBottom": 1,
               "viewportLeft": 0,
               "viewportRight": 1,
+=======
+              "viewportBottom": 0,
+              "viewportLeft": 0,
+              "viewportRight": 0,
+>>>>>>> Stashed changes
 =======
               "viewportBottom": 0,
               "viewportLeft": 0,
@@ -998,6 +1070,7 @@
               "width": 0
             }
           ],
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
           "effects": [
@@ -1043,6 +1116,9 @@
 =======
           "effects": []
 >>>>>>> Stashed changes
+=======
+          "effects": []
+>>>>>>> Stashed changes
         }
       ],
       "behaviorsSharedData": [
@@ -1071,7 +1147,10 @@
           "type": "ScalableCapability::ScalableBehavior"
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         },
@@ -1079,6 +1158,9 @@
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
