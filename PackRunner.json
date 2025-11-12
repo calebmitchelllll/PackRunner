@@ -68,6 +68,10 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite",
+        "file": "diamond_effect_fixed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "diamond_effect_fixed.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -102,6 +106,7 @@
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.4789341884535247,
+        "zoomFactor": 0.546875,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -120,6 +125,14 @@
           "width": 284,
           "x": 715,
           "y": 299,
+          "height": 120,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "8ea915e4-a736-41b8-87c6-172627b2d703",
+          "width": 173,
+          "x": 1066,
+          "y": 38,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -131,6 +144,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "test_sprite",
+          "name": "NewSprite",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -139,6 +153,7 @@
           "animations": [
             {
               "name": "NewSprite",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -149,6 +164,7 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite",
+                      "image": "diamond_effect_fixed.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -178,6 +194,20 @@
                           {
                             "x": 11,
                             "y": 47
+                            "x": 8,
+                            "y": 12
+                          },
+                          {
+                            "x": 62,
+                            "y": 12
+                          },
+                          {
+                            "x": 62,
+                            "y": 54
+                          },
+                          {
+                            "x": 8,
+                            "y": 54
                           }
                         ]
                       ]
@@ -198,6 +228,26 @@
         ]
       },
       "events": [],
+            "objectName": "NewSprite"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": []
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
