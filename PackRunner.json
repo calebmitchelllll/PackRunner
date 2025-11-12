@@ -64,6 +64,10 @@
   "resources": {
     "resources": [
       {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
         "file": "diamond_effect_fixed.png",
         "kind": "image",
         "metadata": "",
@@ -101,6 +105,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
+        "zoomFactor": 0.4789341884535247,
         "zoomFactor": 0.546875,
         "windowMask": false,
         "selectedLayer": ""
@@ -112,6 +117,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
+          "height": 277,
+          "keepRatio": true,
+          "layer": "",
+          "name": "test_sprite",
+          "persistentUuid": "cc4741cf-4d8d-4d09-ab80-8d5189efe74f",
+          "width": 284,
+          "x": 715,
+          "y": 299,
           "height": 120,
           "keepRatio": true,
           "layer": "",
@@ -130,6 +143,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
+          "name": "test_sprite",
           "name": "NewSprite",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -138,15 +152,18 @@
           "behaviors": [],
           "animations": [
             {
+              "name": "NewSprite",
               "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
+                      "image": "NewSprite",
                       "image": "diamond_effect_fixed.png",
                       "points": [],
                       "originPoint": {
@@ -163,6 +180,20 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 11,
+                            "y": 14
+                          },
+                          {
+                            "x": 47,
+                            "y": 14
+                          },
+                          {
+                            "x": 47,
+                            "y": 47
+                          },
+                          {
+                            "x": 11,
+                            "y": 47
                             "x": 8,
                             "y": 12
                           },
@@ -192,6 +223,11 @@
         "folderName": "__ROOT",
         "children": [
           {
+            "objectName": "test_sprite"
+          }
+        ]
+      },
+      "events": [],
             "objectName": "NewSprite"
           }
         ]
