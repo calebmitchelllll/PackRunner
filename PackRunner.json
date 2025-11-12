@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Main",
   "gdVersion": {
     "build": 245,
     "major": 5,
@@ -64,6 +64,7 @@
   "resources": {
     "resources": [
       {
+<<<<<<< Updated upstream
         "file": "assets/NewSprite.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -77,6 +78,50 @@
       }
     ],
     "resourceFolders": []
+=======
+        "file": "res/player.svg",
+        "kind": "image",
+        "metadata": "",
+        "name": "PlayerSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "res/box.svg",
+        "kind": "image",
+        "metadata": "",
+        "name": "ObstacleSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "res/conveyor.svg",
+        "kind": "image",
+        "metadata": "",
+        "name": "ConveyorSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SnowMan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SnowMan.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Worlds/Winter/Objects/95b12f44b801176234a18f2810bf56a9041395c72d5104ba3e9bd02a200c2c1c_SnowMan.png",
+          "name": "SnowMan.png"
+        }
+      }
+    ],
+    "resourceFolders": [
+      {
+        "name": "res",
+        "resources": []
+      }
+    ]
+>>>>>>> Stashed changes
   },
   "objects": [],
   "objectsFolderStructure": {
@@ -86,6 +131,7 @@
   "variables": [],
   "layouts": [
     {
+<<<<<<< Updated upstream
       "b": 209,
       "disableInputWhenNotFocused": true,
       "mangledName": "Untitled_32scene",
@@ -95,6 +141,17 @@
       "stopSoundsOnStartup": true,
       "title": "",
       "v": 209,
+=======
+      "b": 0,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Main",
+      "name": "Main",
+      "r": 0,
+      "standardSortMethod": false,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 0,
+>>>>>>> Stashed changes
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -105,12 +162,16 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
+<<<<<<< Updated upstream
         "zoomFactor": 0.4789341884535247,
+=======
+>>>>>>> Stashed changes
         "zoomFactor": 0.546875,
         "windowMask": false,
         "selectedLayer": ""
       },
       "objectsGroups": [],
+<<<<<<< Updated upstream
       "variables": [],
       "instances": [
         {
@@ -134,6 +195,135 @@
           "x": 1066,
           "y": 38,
           "zOrder": 1,
+=======
+      "variables": [
+        {
+          "name": "RunActive",
+          "type": "boolean",
+          "value": true
+        },
+        {
+          "name": "SceneInitialized",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "SpawnTimer",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "InitialSpawnCooldown",
+          "type": "number",
+          "value": 1.1
+        },
+        {
+          "name": "SpawnCooldown",
+          "type": "number",
+          "value": 1.1
+        },
+        {
+          "name": "MinSpawnCooldown",
+          "type": "number",
+          "value": 0.45
+        },
+        {
+          "name": "SpawnCooldownStep",
+          "type": "number",
+          "value": 0.05
+        },
+        {
+          "name": "ScrollSpeed",
+          "type": "number",
+          "value": 360
+        },
+        {
+          "name": "LaneSpacing",
+          "type": "number",
+          "value": 180
+        },
+        {
+          "name": "JumpSpeed",
+          "type": "number",
+          "value": 900
+        },
+        {
+          "name": "Gravity",
+          "type": "number",
+          "value": 2600
+        },
+        {
+          "name": "SpawnBufferY",
+          "type": "number",
+          "value": -120
+        },
+        {
+          "name": "SpawnHeightOffset",
+          "type": "number",
+          "value": 200
+        },
+        {
+          "name": "Distance",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastWidth",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "LastStartLane",
+          "type": "number",
+          "value": 1
+        }
+      ],
+      "instances": [
+        {
+          "name": "Conveyor",
+          "x": 640,
+          "y": 360,
+          "angle": 0,
+          "zOrder": 0,
+          "layer": "",
+          "customSize": false,
+          "width": 0,
+          "height": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "Player",
+          "x": 640,
+          "y": 560,
+          "angle": 0,
+          "zOrder": 5,
+          "layer": "",
+          "customSize": false,
+          "width": 0,
+          "height": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "name": "InfoText",
+          "x": 640,
+          "y": 84,
+          "angle": 0,
+          "zOrder": 10,
+          "layer": "",
+          "customSize": false,
+          "width": 0,
+          "height": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+>>>>>>> Stashed changes
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -141,23 +331,36 @@
       ],
       "objects": [
         {
+<<<<<<< Updated upstream
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "test_sprite",
           "name": "NewSprite",
           "type": "Sprite",
           "updateIfNotVisible": false,
+=======
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Conveyor",
+          "type": "Sprite",
+          "updateIfNotVisible": true,
+>>>>>>> Stashed changes
           "variables": [],
           "effects": [],
           "behaviors": [],
           "animations": [
             {
+<<<<<<< Updated upstream
               "name": "NewSprite",
               "name": "",
+=======
+              "name": "Base",
+>>>>>>> Stashed changes
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
+<<<<<<< Updated upstream
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
@@ -165,6 +368,139 @@
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite",
                       "image": "diamond_effect_fixed.png",
+=======
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "ConveyorSprite",
+                      "points": [],
+                      "originPoint": {
+                        "name": "Origin",
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "Centre",
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "bbf7459ada96b9db272619c9d7a0c51152abc1bac7b13e9e2b1efb1aa0e10ec3",
+          "name": "Player",
+          "preScale": 1.9024826815140714,
+          "type": "Sprite",
+          "updateIfNotVisible": true,
+          "variables": [
+            {
+              "name": "Initialized",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "LaneIndex",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "LaneCenterX",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "LaneSpacing",
+              "type": "number",
+              "value": 180
+            },
+            {
+              "name": "GroundY",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "VerticalSpeed",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "JumpState",
+              "type": "string",
+              "value": "ground"
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "SnowMan.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "Origin",
+                        "x": 0.2526041666666667,
+                        "y": 0.2734375
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "Centre",
+                        "x": 0.2526041666666667,
+                        "y": 0.2734375
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 97,
+                            "y": 0
+                          },
+                          {
+                            "x": 97,
+                            "y": 105
+                          },
+                          {
+                            "x": 0,
+                            "y": 105
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "SnowMan.png",
+>>>>>>> Stashed changes
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -180,6 +516,7 @@
                       "customCollisionMask": [
                         [
                           {
+<<<<<<< Updated upstream
                             "x": 11,
                             "y": 14
                           },
@@ -208,6 +545,22 @@
                           {
                             "x": 8,
                             "y": 54
+=======
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 97,
+                            "y": 0
+                          },
+                          {
+                            "x": 97,
+                            "y": 105
+                          },
+                          {
+                            "x": 0,
+                            "y": 105
+>>>>>>> Stashed changes
                           }
                         ]
                       ]
@@ -217,23 +570,130 @@
               ]
             }
           ]
+<<<<<<< Updated upstream
+=======
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Obstacle",
+          "type": "Sprite",
+          "updateIfNotVisible": true,
+          "variables": [
+            {
+              "name": "LaneWidth",
+              "type": "number",
+              "value": 1
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "ObstacleSprite",
+                      "points": [],
+                      "originPoint": {
+                        "name": "Origin",
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "Centre",
+                        "x": 0.5,
+                        "y": 0.5
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "InfoText",
+          "smoothed": false,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 32,
+          "color": {
+            "b": 245,
+            "g": 245,
+            "r": 245
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": false,
+            "underlined": false,
+            "text": "",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 32,
+            "lineHeight": 0,
+            "color": "245;245;245"
+          }
+>>>>>>> Stashed changes
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
           {
+<<<<<<< Updated upstream
             "objectName": "test_sprite"
           }
         ]
       },
       "events": [],
             "objectName": "NewSprite"
+=======
+            "objectName": "Conveyor"
+          },
+          {
+            "objectName": "Player"
+          },
+          {
+            "objectName": "Obstacle"
+          },
+          {
+            "objectName": "InfoText"
+>>>>>>> Stashed changes
           }
         ]
       },
       "events": [
         {
+<<<<<<< Updated upstream
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -246,6 +706,186 @@
             }
           ],
           "actions": []
+=======
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const sceneVars = runtimeScene.getVariables();",
+            "const runActiveVar = sceneVars.get(\"RunActive\");",
+            "const dt = gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene);",
+            "const scrollSpeed = sceneVars.get(\"ScrollSpeed\").getAsNumber();",
+            "const laneSpacing = sceneVars.get(\"LaneSpacing\").getAsNumber();",
+            "const minSpawnCooldown = sceneVars.get(\"MinSpawnCooldown\").getAsNumber();",
+            "const cooldownStep = sceneVars.get(\"SpawnCooldownStep\").getAsNumber();",
+            "const spawnHeightOffset = sceneVars.get(\"SpawnHeightOffset\").getAsNumber();",
+            "let playerObjects = runtimeScene.getObjects(\"Player\");",
+            "let obstacleObjects = runtimeScene.getObjects(\"Obstacle\");",
+            "let conveyorObjects = runtimeScene.getObjects(\"Conveyor\");",
+            "let infoTextObjects = runtimeScene.getObjects(\"InfoText\");",
+            "",
+            "const initVar = sceneVars.get(\"SceneInitialized\");",
+            "if (!initVar.getAsBoolean()) {",
+            "  runActiveVar.setBoolean(true);",
+            "  sceneVars.get(\"SpawnTimer\").setNumber(0);",
+            "  sceneVars.get(\"SpawnCooldown\").setNumber(sceneVars.get(\"InitialSpawnCooldown\").getAsNumber());",
+            "  sceneVars.get(\"Distance\").setNumber(0);",
+            "  sceneVars.get(\"LastWidth\").setNumber(1);",
+            "  sceneVars.get(\"LastStartLane\").setNumber(1);",
+            "  if (!conveyorObjects.length) {",
+            "    const conveyor = runtimeScene.createObject(\"Conveyor\");",
+            "    if (conveyor) {",
+            "      conveyor.setCenterPositionInScene(runtimeScene.getGame().getGameResolutionWidth() / 2, runtimeScene.getGame().getGameResolutionHeight() / 2);",
+            "      conveyor.setWidth(runtimeScene.getGame().getGameResolutionWidth() + 80);",
+            "      conveyor.setHeight(runtimeScene.getGame().getGameResolutionHeight() + 80);",
+            "      conveyor.setZOrder(0);",
+            "      conveyorObjects = [conveyor];",
+            "    }",
+            "  }",
+            "  if (!playerObjects.length) {",
+            "    const player = runtimeScene.createObject(\"Player\");",
+            "    if (player) {",
+            "      player.setCenterPositionInScene(runtimeScene.getGame().getGameResolutionWidth() / 2, runtimeScene.getGame().getGameResolutionHeight() - 160);",
+            "      const playerVars = player.getVariables();",
+            "      playerVars.get(\"LaneCenterX\").setNumber(player.getX());",
+            "      playerVars.get(\"GroundY\").setNumber(player.getY());",
+            "      playerVars.get(\"Initialized\").setBoolean(false);",
+            "      playerObjects = [player];",
+            "    }",
+            "  } else {",
+            "    const player = playerObjects[0];",
+            "    player.setCenterPositionInScene(runtimeScene.getGame().getGameResolutionWidth() / 2, runtimeScene.getGame().getGameResolutionHeight() - 160);",
+            "    const playerVars = player.getVariables();",
+            "    playerVars.get(\"LaneCenterX\").setNumber(player.getX());",
+            "    playerVars.get(\"GroundY\").setNumber(player.getY());",
+            "    playerVars.get(\"Initialized\").setBoolean(false);",
+            "    playerObjects = [player];",
+            "  }",
+            "  if (!infoTextObjects.length) {",
+            "    const info = runtimeScene.createObject(\"InfoText\");",
+            "    if (info) {",
+            "      info.setCenterPositionInScene(runtimeScene.getGame().getGameResolutionWidth() / 2, 84);",
+            "      info.setZOrder(10);",
+            "      infoTextObjects = [info];",
+            "    }",
+            "  }",
+            "  initVar.setBoolean(true);",
+            "}",
+            "",
+            "playerObjects = runtimeScene.getObjects(\"Player\");",
+            "obstacleObjects = runtimeScene.getObjects(\"Obstacle\");",
+            "infoTextObjects = runtimeScene.getObjects(\"InfoText\");",
+            "conveyorObjects = runtimeScene.getObjects(\"Conveyor\");",
+            "",
+            "if (playerObjects.length) {",
+            "  gdjs.evtsExt__LaneRunnerController__UpdateController.func(",
+            "    runtimeScene,",
+            "    playerObjects,",
+            "    obstacleObjects,",
+            "    laneSpacing,",
+            "    sceneVars.get(\"JumpSpeed\").getAsNumber(),",
+            "    sceneVars.get(\"Gravity\").getAsNumber(),",
+            "    \"RunActive\",",
+            "    eventsFunctionContext",
+            "  );",
+            "}",
+            "",
+            "if (runActiveVar.getAsBoolean()) {",
+            "  sceneVars.get(\"Distance\").add(scrollSpeed * dt * 0.12);",
+            "  const spawnTimer = sceneVars.get(\"SpawnTimer\");",
+            "  spawnTimer.add(dt);",
+            "  if (spawnTimer.getAsNumber() >= sceneVars.get(\"SpawnCooldown\").getAsNumber()) {",
+            "    spawnTimer.setNumber(0);",
+            "    const spawnObstacle = () => {",
+            "      if (!playerObjects.length) {",
+            "        return;",
+            "      }",
+            "      const player = playerObjects[0];",
+            "      const playerVars = player.getVariables();",
+            "      const laneCenter = playerVars.get(\"LaneCenterX\").getAsNumber() || player.getX();",
+            "      const activeObstacles = runtimeScene.getObjects(\"Obstacle\");",
+            "      const spawnBuffer = sceneVars.get(\"SpawnBufferY\").getAsNumber();",
+            "      for (let i = 0; i < activeObstacles.length; i += 1) {",
+            "        if (activeObstacles[i].getY() < spawnBuffer) {",
+            "          return;",
+            "        }",
+            "      }",
+            "      let width = gdjs.randomFloatInRange(0, 1) < 0.35 ? 2 : 1;",
+            "      const lastWidth = sceneVars.get(\"LastWidth\").getAsNumber();",
+            "      if (lastWidth >= 2) {",
+            "        width = 1;",
+            "      }",
+            "      const startLaneMax = 3 - width;",
+            "      let startLane = gdjs.randomInRange(0, startLaneMax);",
+            "      const lastStartLane = sceneVars.get(\"LastStartLane\").getAsNumber();",
+            "      if (width === lastWidth && startLane === lastStartLane) {",
+            "        startLane = (startLane + 1) % (startLaneMax + 1);",
+            "      }",
+            "      const obstacle = runtimeScene.createObject(\"Obstacle\");",
+            "      if (!obstacle) {",
+            "        return;",
+            "      }",
+            "      const lanePositions = [",
+            "        laneCenter - laneSpacing,",
+            "        laneCenter,",
+            "        laneCenter + laneSpacing",
+            "      ];",
+            "      const firstLaneX = lanePositions[startLane];",
+            "      const lastLaneX = lanePositions[startLane + width - 1];",
+            "      const centerX = width === 1 ? firstLaneX : (firstLaneX + lastLaneX) / 2;",
+            "      obstacle.setCenterPositionInScene(centerX, -spawnHeightOffset);",
+            "      const baseWidth = obstacle.getWidth();",
+            "      if (baseWidth > 0) {",
+            "        obstacle.setScaleX((laneSpacing * width * 0.9) / baseWidth);",
+            "      }",
+            "      obstacle.setZOrder(4);",
+            "      sceneVars.get(\"LastWidth\").setNumber(width);",
+            "      sceneVars.get(\"LastStartLane\").setNumber(startLane);",
+            "    };",
+            "    spawnObstacle();",
+            "    const currentCooldown = sceneVars.get(\"SpawnCooldown\").getAsNumber();",
+            "    sceneVars.get(\"SpawnCooldown\").setNumber(Math.max(minSpawnCooldown, currentCooldown - cooldownStep));",
+            "  }",
+            "}",
+            "",
+            "const allObstacles = runtimeScene.getObjects(\"Obstacle\");",
+            "const activeScrollSpeed = runActiveVar.getAsBoolean() ? scrollSpeed : scrollSpeed * 0.25;",
+            "for (let i = 0; i < allObstacles.length; i += 1) {",
+            "  const obstacle = allObstacles[i];",
+            "  obstacle.setY(obstacle.getY() + activeScrollSpeed * dt);",
+            "  if (obstacle.getY() > runtimeScene.getGame().getGameResolutionHeight() + obstacle.getHeight()) {",
+            "    obstacle.deleteFromScene(runtimeScene);",
+            "  }",
+            "}",
+            "",
+            "for (let i = 0; i < conveyorObjects.length; i += 1) {",
+            "  const conveyor = conveyorObjects[i];",
+            "  conveyor.setY(conveyor.getY() + activeScrollSpeed * dt * 0.1);",
+            "  const baseY = runtimeScene.getGame().getGameResolutionHeight() / 2;",
+            "  if (conveyor.getY() > baseY + 40) {",
+            "    conveyor.setY(baseY - 40);",
+            "  }",
+            "}",
+            "",
+            "const score = Math.floor(sceneVars.get(\"Distance\").getAsNumber());",
+            "for (let i = 0; i < infoTextObjects.length; i += 1) {",
+            "  const info = infoTextObjects[i];",
+            "  if (runActiveVar.getAsBoolean()) {",
+            "    info.setString(\"A/D or Left/Right to switch lanes, Space to jump.\\nScore: \" + score);",
+            "  } else {",
+            "    info.setString(\"Run over!\\nScore: \" + score + \"\\nPress R to restart\");",
+            "  }",
+            "}",
+            "",
+            "if (!runActiveVar.getAsBoolean()) {",
+            "  if (gdjs.evtTools.input.wasKeyReleased(runtimeScene, \"r\") || gdjs.evtTools.input.wasKeyReleased(runtimeScene, \"R\")) {",
+            "    gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, \"Main\", false);",
+            "  }",
+            "}",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": false,
+          "eventsSheetExpanded": false
+>>>>>>> Stashed changes
         }
       ],
       "layers": [
@@ -255,8 +895,13 @@
           "ambientLightColorR": 200,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
+<<<<<<< Updated upstream
           "camera3DNearPlaneDistance": 3,
           "cameraType": "",
+=======
+          "camera3DNearPlaneDistance": 0.1,
+          "cameraType": "perspective",
+>>>>>>> Stashed changes
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
@@ -268,13 +913,20 @@
               "defaultSize": true,
               "defaultViewport": true,
               "height": 0,
+<<<<<<< Updated upstream
               "viewportBottom": 1,
               "viewportLeft": 0,
               "viewportRight": 1,
+=======
+              "viewportBottom": 0,
+              "viewportLeft": 0,
+              "viewportRight": 0,
+>>>>>>> Stashed changes
               "viewportTop": 0,
               "width": 0
             }
           ],
+<<<<<<< Updated upstream
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
@@ -312,6 +964,9 @@
               }
             }
           ]
+=======
+          "effects": []
+>>>>>>> Stashed changes
         }
       ],
       "behaviorsSharedData": [
@@ -338,11 +993,227 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+<<<<<<< Updated upstream
+=======
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+>>>>>>> Stashed changes
         }
       ]
     }
   ],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "author": "",
+      "category": "Gameplay",
+      "extensionNamespace": "",
+      "fullName": "Lane Runner Controller",
+      "gdevelopVersion": "",
+      "helpPath": "",
+      "iconUrl": "",
+      "name": "LaneRunnerController",
+      "previewIconUrl": "",
+      "shortDescription": "Three-lane endless runner controller with jump and collision fail-state.",
+      "version": "1.0.0",
+      "description": "Provides a reusable three-lane runner controller that keeps the player on a conveyor, supports lateral lane swaps, jumping, and run-fail collisions against obstacle objects.",
+      "tags": [
+        ""
+      ],
+      "authorIds": [],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [
+        {
+          "description": "Call each frame to drive a three-lane conveyor-style runner player.",
+          "fullName": "Update lane runner controller",
+          "functionType": "Action",
+          "name": "UpdateController",
+          "sentence": "Update lane runner for _PARAM0_ with obstacles _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const playerObjects = eventsFunctionContext.getObjects(\"Player\");",
+                "if (!playerObjects.length) {",
+                "  return;",
+                "}",
+                "const obstacles = eventsFunctionContext.getObjects(\"Obstacles\");",
+                "const laneSpacingArg = eventsFunctionContext.getArgument(\"LaneSpacing\");",
+                "const jumpSpeedArg = eventsFunctionContext.getArgument(\"JumpSpeed\");",
+                "const gravityArg = eventsFunctionContext.getArgument(\"Gravity\");",
+                "const runVarNameArg = eventsFunctionContext.getArgument(\"RunActiveVar\");",
+                "const laneSpacingBase = laneSpacingArg !== undefined ? laneSpacingArg : 180;",
+                "const laneSpacing = Math.abs(laneSpacingBase) > 0 ? Math.abs(laneSpacingBase) : 180;",
+                "const jumpSpeedBase = jumpSpeedArg !== undefined ? jumpSpeedArg : 900;",
+                "const jumpSpeed = Math.abs(jumpSpeedBase) > 0 ? Math.abs(jumpSpeedBase) : 900;",
+                "const gravityBase = gravityArg !== undefined ? gravityArg : 2600;",
+                "const gravity = Math.abs(gravityBase) > 0 ? Math.abs(gravityBase) : 2600;",
+                "const runVarName = runVarNameArg && runVarNameArg.length ? runVarNameArg : \"RunActive\";",
+                "const sceneVariables = runtimeScene.getVariables();",
+                "const runActiveVar = sceneVariables.get(runVarName);",
+                "const dt = gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene);",
+                "",
+                "for (let i = 0; i < playerObjects.length; i++) {",
+                "  const player = playerObjects[i];",
+                "  const playerVars = player.getVariables();",
+                "  const initVar = playerVars.get(\"Initialized\");",
+                "  if (!initVar.getAsBoolean()) {",
+                "    playerVars.get(\"LaneIndex\").setNumber(1);",
+                "    playerVars.get(\"LaneCenterX\").setNumber(player.getX());",
+                "    playerVars.get(\"LaneSpacing\").setNumber(laneSpacing);",
+                "    playerVars.get(\"GroundY\").setNumber(player.getY());",
+                "    playerVars.get(\"VerticalSpeed\").setNumber(0);",
+                "    playerVars.get(\"JumpState\").setString(\"ground\");",
+                "    initVar.setBoolean(true);",
+                "    runActiveVar.setBoolean(true);",
+                "  }",
+                "  playerVars.get(\"LaneSpacing\").setNumber(laneSpacing);",
+                "",
+                "  let runActive = runActiveVar.getAsBoolean();",
+                "",
+                "  const laneIndexVar = playerVars.get(\"LaneIndex\");",
+                "  let laneIndex = laneIndexVar.getAsNumber();",
+                "  const laneCenterX = playerVars.get(\"LaneCenterX\").getAsNumber();",
+                "  const lanes = [",
+                "    laneCenterX - laneSpacing,",
+                "    laneCenterX,",
+                "    laneCenterX + laneSpacing",
+                "  ];",
+                "",
+                "  if (laneIndex < 0) {",
+                "    laneIndex = 0;",
+                "    laneIndexVar.setNumber(0);",
+                "  } else if (laneIndex > 2) {",
+                "    laneIndex = 2;",
+                "    laneIndexVar.setNumber(2);",
+                "  }",
+                "",
+                "  if (runActive) {",
+                "    const moveLeft = gdjs.evtTools.input.wasKeyPressed(runtimeScene, \"Left\") || gdjs.evtTools.input.wasKeyPressed(runtimeScene, \"a\") || gdjs.evtTools.input.wasKeyPressed(runtimeScene, \"A\");",
+                "    const moveRight = gdjs.evtTools.input.wasKeyPressed(runtimeScene, \"Right\") || gdjs.evtTools.input.wasKeyPressed(runtimeScene, \"d\") || gdjs.evtTools.input.wasKeyPressed(runtimeScene, \"D\");",
+                "",
+                "    if (moveLeft && laneIndex > 0) {",
+                "      laneIndex -= 1;",
+                "      laneIndexVar.setNumber(laneIndex);",
+                "    } else if (moveRight && laneIndex < 2) {",
+                "      laneIndex += 1;",
+                "      laneIndexVar.setNumber(laneIndex);",
+                "    }",
+                "  }",
+                "",
+                "  const currentLaneIndex = Math.round(laneIndexVar.getAsNumber());",
+                "  if (lanes[currentLaneIndex] !== undefined) {",
+                "    player.setX(lanes[currentLaneIndex]);",
+                "  }",
+                "",
+                "  const groundY = playerVars.get(\"GroundY\").getAsNumber();",
+                "  let jumpState = playerVars.get(\"JumpState\").getAsString();",
+                "  let verticalSpeed = playerVars.get(\"VerticalSpeed\").getAsNumber();",
+                "",
+                "  if (runActive && jumpState === \"ground\") {",
+                "    const jumpPressed =",
+                "      gdjs.evtTools.input.wasKeyPressed(runtimeScene, \"Space\") ||",
+                "      gdjs.evtTools.input.wasKeyPressed(runtimeScene, \"Up\") ||",
+                "      gdjs.evtTools.input.wasKeyPressed(runtimeScene, \"w\") ||",
+                "      gdjs.evtTools.input.wasKeyPressed(runtimeScene, \"W\");",
+                "",
+                "    if (jumpPressed) {",
+                "      verticalSpeed = -Math.abs(jumpSpeed);",
+                "      jumpState = \"air\";",
+                "    }",
+                "  }",
+                "",
+                "  if (jumpState !== \"ground\") {",
+                "    verticalSpeed += Math.abs(gravity) * dt;",
+                "    let newY = player.getY() + verticalSpeed * dt;",
+                "    if (newY >= groundY) {",
+                "      newY = groundY;",
+                "      verticalSpeed = 0;",
+                "      jumpState = \"ground\";",
+                "    }",
+                "    player.setY(newY);",
+                "  } else {",
+                "    player.setY(groundY);",
+                "  }",
+                "",
+                "  playerVars.get(\"VerticalSpeed\").setNumber(verticalSpeed);",
+                "  playerVars.get(\"JumpState\").setString(jumpState);",
+                "",
+                "  if (runActive && obstacles.length) {",
+                "    const playerBox = player.getAABB();",
+                "    for (let j = 0; j < obstacles.length; j++) {",
+                "      const obstacle = obstacles[j];",
+                "      const obstacleBox = obstacle.getAABB();",
+                "      const intersects =",
+                "        playerBox.maxX > obstacleBox.minX &&",
+                "        playerBox.minX < obstacleBox.maxX &&",
+                "        playerBox.maxY > obstacleBox.minY &&",
+                "        playerBox.minY < obstacleBox.maxY;",
+                "      if (intersects) {",
+                "        runActiveVar.setBoolean(false);",
+                "        runActive = false;",
+                "        break;",
+                "      }",
+                "    }",
+                "  }",
+                "}",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": false,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Player object to control",
+              "name": "Player",
+              "type": "objectList"
+            },
+            {
+              "description": "Obstacle objects that end the run on contact",
+              "name": "Obstacles",
+              "optional": true,
+              "type": "objectList"
+            },
+            {
+              "defaultValue": "180",
+              "description": "Spacing between adjacent lanes in pixels",
+              "name": "LaneSpacing",
+              "supplementaryInformation": "number",
+              "type": "expression"
+            },
+            {
+              "defaultValue": "900",
+              "description": "Upward impulse applied when the player jumps",
+              "name": "JumpSpeed",
+              "supplementaryInformation": "number",
+              "type": "expression"
+            },
+            {
+              "defaultValue": "2600",
+              "description": "Downward acceleration applied while airborne",
+              "name": "Gravity",
+              "supplementaryInformation": "number",
+              "type": "expression"
+            },
+            {
+              "defaultValue": "RunActive",
+              "description": "Scene boolean variable tracking whether the run is still active",
+              "name": "RunActiveVar",
+              "type": "scenevar"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [],
+      "eventsBasedObjects": []
+    }
+  ],
   "externalLayouts": []
 }

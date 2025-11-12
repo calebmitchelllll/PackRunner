@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320">
+  <defs>
+    <linearGradient id="belt" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#1a1a1d" />
+      <stop offset="1" stop-color="#2e3039" />
+    </linearGradient>
+    <pattern id="stripes" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="skewX(-20)">
+      <rect width="40" height="40" fill="none" stroke="#454964" stroke-width="12" opacity="0.5" />
+    </pattern>
+  </defs>
+  <rect width="320" height="320" fill="url(#belt)" />
+  <rect width="320" height="320" fill="url(#stripes)" />
+</svg>
